@@ -17,6 +17,7 @@ public class ZipFileCreator {
 		env.put("create", "true");
 		try (FileSystem fs = FileSystems.newFileSystem(jarZipFileUri, env)) {
 			Path rootInsideZip = fs.getPath("");
+//			…
 		}
 	}
 }
